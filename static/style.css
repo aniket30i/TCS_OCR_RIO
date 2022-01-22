@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432) !important;
+    background: #FF512F !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+.main_div{
+    width: 70%;
+    margin: 3rem auto;
+    text-align: center;
+}
+.sub_div{
+    width: 50%;
+    text-align: center;
+    margin: 6rem auto;
+}
+
+.main_text{
+    font-family: 'Lobster', cursive !important;
+    font-size: 4rem;
+}
+
+.read{
+    padding: .5rem 2rem  !important;
+    margin: 2rem !important;
+    background-color: rgb(0, 160, 85) !important;
+    border-radius: 8px !important;
+    color: white !important;
+    border: 0px;
+    font-size: 1.5rem !important;
+    box-shadow: 0 0 10px #ff8800;
+}
+
+.fin{
+    padding: .5rem 2rem  !important;
+    margin: 2rem;
+    border-radius: 8px !important;
+    color: white !important;
+    border: 0px;
+    font-size: 1.5rem !important;
+    box-shadow: 0 0 10px #ff8800;
+}
+
+input[type='file']{
+    box-shadow: 0 0 10px #ff8800;
+}
+
+.read:hover{
+    background-color: rgb(1, 109, 55) !important;
+}
+
+.button_div{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 622px) {
+   
+    .main_div{
+        width: 90%;
+        margin: 3rem auto;
+    }
+    .sub_div{
+        width: 80%;
+        margin: 4rem auto;
+    }
+    
+    .main_text{
+        font-size: 2.5rem;
+    }
+    
+    .read{
+        padding: .5rem 1rem  !important;
+        margin: 1rem !important;
+        color: white !important;
+        font-size: .9rem !important;
+        border: 0px;
+    }
+
+    .fin{
+        padding: .5rem 1rem  !important;
+        margin: 1rem;
+        border-radius: 8px !important;
+        font-size: 1rem !important;
+        border: 0px;
+        box-shadow: 0 0 10px #ff8800;
+    }
+
+  }
